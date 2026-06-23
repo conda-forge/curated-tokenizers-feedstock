@@ -1,12 +1,12 @@
-{% set version = "0.0.9" %}
+{% set version = "2.0.0" %}
 
 package:
   name: curated-tokenizers
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/c/curated-tokenizers/curated-tokenizers-{{ version }}.tar.gz
-  sha256: c93d47e54ab3528a6db2796eeb4bdce5d44e8226c671e42c2f23522ab1d0ce25
+  url: https://pypi.org/packages/source/c/curated-tokenizers/curated_tokenizers-{{ version }}.tar.gz
+  sha256: 0a8f8c527bc93a6404ec0ba8f0df215b8c205edc81a05617fbbe705438804094
   patches:
     - patches/0001-use-our-own-sentencepiece-abseil.patch
 
